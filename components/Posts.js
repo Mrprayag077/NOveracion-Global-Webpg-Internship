@@ -18,7 +18,12 @@ function showPostSection(data) {
       return category.name === categoryName;
     });
     // destructuring category data from categoryData
-    const { title, description, PostsObject } = categoryData;
+    // const { title, description, PostsObject } = categoryData;
+    const title = "Why we do what we do?";
+    const description1 = "We believe in the power of innovation to build solutions that create an impact.";
+    const description2 = "We at NOVERACION GLOBAL believe that innovation is a key growth driver for any business or organization and leveraging cutting edge technology can not only help organizations to stay ahead of competition but also help to deliver best always, creating sustainable value for all stakeholders.";
+    const description3 = "We believe that the toughest problem can be solved by exploring the nutshell and adding a Flavour of Excitement and Innovation to crack the nutshell can lead to hilarious results.<br>We believe that converting a vision into reality is a by-product of not just HARD but also SMART work.";
+    const description4 = "Adding a touch of Excitement and Innovation to deliver more value, we are committed to help you change with the changing world. We can help you to reach the epitome of your excellence.<br>We are Excited to Innovate.";
     //creating html structure
     // creating container
     const sectionContainer = document.createElement("div");
@@ -34,8 +39,17 @@ function showPostSection(data) {
     <h2 class="cl-blue-900">
                 ${title}
               </h2>
+              <h5 style="font-style: italic; color:#f58a07">
+              ${description1}
+              </h5>
               <p class="mt-3">
-                ${description}
+                ${description2}
+              </p>
+              <p class="mt-3">
+                ${description3}
+              </p>
+              <p class="mt-3">
+                ${description4}
               </p>
     `;
     // creating PostWrapper inside row (container > row > postWrapper )
