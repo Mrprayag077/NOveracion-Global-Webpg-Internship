@@ -39,7 +39,7 @@ function showPostSection(data) {
     <h2 class="cl-blue-900">
                 ${title}
               </h2>
-              <h5 style="font-style: italic; color:#f58a07">
+              <h5 style="font-style: italic; color:#f58a07" >
               ${description1}
               </h5>
               <p class="mt-3">

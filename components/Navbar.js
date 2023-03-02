@@ -10,10 +10,18 @@ function Navbar() {
     <a class="navbar-brand brand-logo" href="./index.html">
                 <img
                   class="img-fluid"
-                  src="./images/BrandLogo-dark (2).svg"
+                  src="https://media.licdn.com/dms/image/C510BAQHoqCdtHKlNBQ/company-logo_200_200/0/1561704995516?e=2147483647&v=beta&t=Gj9QIl0vYk3YAmJjUJGnjMA216Ey_x4XNvaqYOpAVS0"
                   alt=""
                   srcset=""
                 />
+
+                <style>
+.img-fluid {
+width: 40px;
+height: 40px;
+}
+
+                </style>
           </a>
           <button
             class="navbar-toggler rounded-pill"
@@ -45,6 +53,9 @@ function Navbar() {
               <li class="nav-item ms-md-1">
                 <a class="nav-link" href="./Blog.html">Blog</a>
               </li>
+              <li class="nav-item ms-md-1">
+                <a class="nav-link" href="./Blog.html">Team</a>
+              </li>
               <li class="nav-item mx-md-1">
                 <a class="nav-link" href="./contact.html">Contact us</a>
               </li>
@@ -54,7 +65,7 @@ function Navbar() {
               href="https://github.com/imShivam579/Agency-Website"
               class="btn btn-outline-warning rounded-pill bg-brand-primayfaint"
             >
-              Clone App
+             Enquiry 
             </a>
           </div>
     `;

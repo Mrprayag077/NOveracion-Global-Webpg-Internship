@@ -296,13 +296,14 @@ form label {
   text-align: center;
   position: relative;
   padding-bottom: .5rem;
+  
 }
 
 .section-header p {
   text-align: center;
   margin: auto;
-  font-size: 15px;
+  font-size: 20px;
   padding-bottom: 40px;
   color: #1d3444;
-  width: 50%;
+  width: 85%;
 }
